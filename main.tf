@@ -3,7 +3,7 @@ terraform {
     resource_group_name = "terraformDemo"
     storage_account_name = "terraformdemogit"
     container_name = "tfstatefile"
-    key = "tfstatefile.tfstate"
+    key = "lhdi9R/78A2Bi59LkngvbN3PPC1BjEvhEoAglzwD/WG0XZx/eqr/VmIWW1D3BqEXn6PuNdqd2EK2+ASteSYSvg=="
   }
 }
  
