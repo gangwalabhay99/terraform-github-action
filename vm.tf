@@ -1,7 +1,7 @@
 resource "azurerm_virtual_machine" "vm" {
   name                  = "action-ubuntu-vm"
-  location              = azurerm_resource_group.rg
-  resource_group_name   = azurerm_resource_group.rg
+  location              = azurerm_resource_group.rg.location
+  resource_group_name   = azurerm_resource_group.rg.name
   network_interface_ids = [azurerm_network_interface.nic.id]
   vm_size               = "Standard_B1s"
     
